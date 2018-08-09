@@ -1,0 +1,14 @@
+// Example program
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std:: string name= "Jhon"; 
+    std:: string surname= "Doe";
+    std:: string fullname;
+    fullname = name + " " + surname;
+    std::cout << "your name is: " << fullname << std:: endl;
+  return 0;
+ 
+}
